@@ -1,0 +1,29 @@
+.center-header{
+color: rgb(255, 151, 168);
+text-align: center;
+font-style: italic;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+.myskill,p{
+    color: skyblue;
+    text-align: center;
+    font-style: oblique ;
+}
+.skill-container{
+    border: solid pink;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+
+.center-p{
+    color: rgb(255, 151, 168);
+    width: 500px;
+
+}
