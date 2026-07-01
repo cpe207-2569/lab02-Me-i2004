@@ -5,23 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
   </head>
   <body>
-    <h1 class="center-header">My Portfolio</h1>
-    <ul>
-      <li class="center-header"><a href="index.html" >Home</a></li>
-    </ul>
-    <img src="Profile.me.jpg" width="500" style="margin-left: auto; display: block; margin-right: auto"alt="">
-    
-  <p class="center-header">RAPEEPHAN CHAMCHAROEN</p>
-  <div class="skill-container">
-      <h2 class="myskill">My Skill</h2>
-      <p>มีความมานะพยายาม ถึงแม้จะไม่เก่งแต่จะทำให้ได้</p>
+    <div class="d-flex justify-content-center gap-5 fw-bold my-4">
+      <a href="index.html">Home</a>
+      <a href="favotites.html">Favorites</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
     </div>
-    <h2 class="center-header">Learn about me more</p>
+    
+   
+    <div class="d-flex justify-content-center align-items-center mx-auto gap-3" style="max-width: 700px">
+      <div>
+        <img src="Profile.me.jpg" class="rounded-circle" width="200" height="200" style="object-fit: cover">
+      </div>
 
+      <div class="d-none d-sm-block">
+        <div class="fw-bold display-5 mb-3">Rapeephan Chamcharoen</div>
+        <div class="text-muted">
+          Hi, my name is Rapeephan. I'm studying at Faculty of  Engineering Computer, Chiangmai University.
+        </div>
+      </div>
+    </div>
 
-<h2 class="center-header"><a href="Experience.html" style="text-align:center";>Experience</a></h2>
-<h2 class="center-header"><a href="Contact.html"style="text-align:center";>Contact</a></h2> 
+<div style="max-width: 700px" class="mx-auto p-5">
+
+  <div class="border-pink-500/75 mb-3 shadow-sm my-rounded-all">
+    <div class="p-4 text-center">
+      <h3 class="fw-semibold">My skill</h3>
+      <p class="text-muted mb-0">
+        มีความมานะพยายาม ถึงแม้จะไม่เก่งแต่จะทำให้ได้
+      </p>
+    </div>
+  </div>
+
+  <div class="border-pink-500/75 mb-3 shadow-sm my-rounded-all">
+    <div class="p-4 text-center">
+      <h3 class="fw-semibold">My Experience</h3>
+      <p class="text-muted mb-0">
+        เคยเป็นไอดอล 6 ปี ได้สกิลมากมายจากการทำงาน เช่น ร้อง เต้น MC การกล้าแสดงออก
+      </p>
+    </div>
+  </div>
+
+  <div class="border-pink-500/75 shadow-sm my-rounded-all">
+    <div class="p-4 text-center">
+      <h3 class="fw-semibold">Hobby</h3>
+      <p class="text-muted mb-0">
+        เล่นเกม ดูหนัง ฟังเพลง บาสเกตบอล
+      </p>
+    </div>
+  </div>
+
+</div>
   </body>
 </html>

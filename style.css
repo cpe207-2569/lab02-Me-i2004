@@ -21,9 +21,27 @@ font-style: italic;
     padding: 1rem;
     margin-bottom: 10px;
 }
+.display-5{
+    color: rgb(235, 150, 164);
+}
+.fw-semibold{
+    color: skyblue;
+}
 
-.center-p{
-    color: rgb(255, 151, 168);
-    width: 500px;
+.my-rounded-all{
+    border: 2px solid pink;
+    border-radius: 12px;
+}
 
+.my-rounded-all:hover{
+    border-color: palevioletred;
+    box-shadow: 0 0 15px rgba(143,211,244,.4);
+}
+.card-text{
+    color: gray;
+}
+
+.bg-border{
+    color: palevioletred;
+    background-color: rgb(196, 236, 252);
 }
